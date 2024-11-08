@@ -1,0 +1,106 @@
+.my-footer {
+    position: absolute;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121212;
+    border-top: 1px solid white;
+    width: 100%;
+}
+
+.leftfooter-section {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.leftfooter-section h5 {
+    font-family: Pixelify Sans;
+    margin: 0;
+    text-transform: uppercase;
+    margin-left: 20px;
+    color: gray;
+    cursor: default;
+}
+
+.leftfooter-section p {
+    font-family: Pixelify Sans;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 0;
+    color: gray;
+    text-transform: uppercase;
+    cursor: default;
+}
+
+.disclaimer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    color: gray;
+    width: 100%;
+    height: 100%;
+    margin-left: 50px;
+    font-family: Pixelify Sans;
+}
+
+.disclaimer h4 {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+    width: 100%;
+    cursor: default;
+    font-family: Pixelify Sans;
+}
+
+.year {
+    display: block;
+    width: auto;
+    background-color: #121212;
+}
+
+.year p {
+    text-align: center;
+    margin: 0;
+    color: white;
+}
+
+@media (max-width: 790px) {
+    .my-footer {
+    flex-direction: column;
+    width: 100%;
+    }
+
+    .my-footer .leftfooter-section{
+        margin-top: 50px;
+    }
+    .disclaimer h4 {
+    display: none;
+    }
+    .disclaimer p {
+    display: none;
+    }
+}
+
+
+
+@media (max-width: 1040px) {
+    .my-footer{
+        position: absolute;
+    }
+
+}
+
+
+@media (max-width: 1000px) {
+    .my-footer{
+        position: absolute;
+    }
+}
+
+
+

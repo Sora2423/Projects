@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+    padding: 0;
+    background-color: #121212;
+}
+    
+    
+.logos{
+    width: 40px;
+    height: 40px;
+    display: flex;
+}
+    
+    
+.abt-container{
+    margin-top: 13%;
+}
+    
+.abt-container h1{
+    text-transform: uppercase;
+    font-family: Pixelify Sans;
+    color: white;
+    font-size: 52px;
+    margin-bottom: 55px;
+    text-align: center;
+    cursor: default;
+    }
+    
+.team{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+}
+    
+    
+.team .team-member{
+    font-family: Pixelify Sans;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    background-color: #414141;
+    margin: 8px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 12px;
+    color: white;
+    position: relative;
+    }
+    
+.color:hover{
+    color:white;
+}
+    
+.color{
+    color: white;
+    font-size: 23px;
+}
+    
+.team-member:hover{
+    transition: 0.2s ease-out;
+    transform: scale(1.03);
+    box-shadow: 0 3px 10px white;
+    }
+    
+    
+    
+.team .team-member h3{
+    color: white;
+    font-size: 25px;
+    margin-top: 70px;
+    font-family: Pixelify Sans;
+    cursor: default;
+}
+    
+.thumbnail{
+    border-radius: 50%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+
+}
+    
+.team .team-member p.role{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 12px 0;
+    cursor: default;
+}
+    
+.team .team-member .contact{
+    margin-top: 40px;
+    cursor: default;
+}
+    
+.team .team-member .team-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+    
+.team .team-member .team-img img{
+    width: 115px;
+    height: 115px;
+    padding: 0;
+}

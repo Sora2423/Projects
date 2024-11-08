@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/OP.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
+    background-attachment: fixed;
+    margin: 0px;
+    font-family: Pixelify Sans;
+
+}
+
+.container{
+    margin-top: 10%;
+}
+
+.container h5 {
+    color: black;
+    
+}
+.container h6 {
+    color: black;
+}
+.container p {
+    color: black;
+}
+
+.card{
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    border-color: black;
+}
+
+.card img{
+    width: auto;
+    height: auto;
+}
